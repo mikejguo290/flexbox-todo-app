@@ -36,6 +36,8 @@ body {
   
   /* To Do Section */
   .week {
+      /* week to grow to fill its container div class = container */
+      flex-grow:3;
   }
   
   .row {
@@ -69,6 +71,8 @@ body {
   /* Reminders */
   .reminders {
     background-color: khaki;
+    /* grow to fill its container */
+    flex-grow: 2;
   }
   
   .reminders h3 {
